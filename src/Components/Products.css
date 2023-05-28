@@ -1,0 +1,14 @@
+.products {
+    margin: 20px;
+    padding: 0px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.products__single {
+    height: 250px;
+    padding: 20px;
+    background-color: rgba(220, 220, 220);
+    text-align: center;
+    border-radius: 5px;
+}

@@ -1,0 +1,18 @@
+.pagingantion {
+    padding: 10px;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.pagingantion > span {
+    padding: 15px 20px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+.active{
+    background-color: gray;
+}
+.disabled{
+    opacity: 0;
+}
